@@ -1,0 +1,21 @@
+.SearchFeild_wrapper{
+    @apply flex rounded-md w-full; 
+    form{
+        @apply flex w-full;
+    }
+}
+.nav_left{
+    @apply flex;
+    
+    background-color: #f3f3f3;
+
+}
+.nav_fill{
+    @apply flex;
+    background-color: #ffffff;
+}
+
+.nav_right{
+    @apply flex;
+    background-color: #febd69;
+}

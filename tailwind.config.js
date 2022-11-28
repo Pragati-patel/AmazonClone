@@ -5,6 +5,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontSize:{
+      '12px':'12px',
+      '14px':'14px',
+
+
+    },
     extend: {
       fontFamily: {
         AmazonEmberBold: ["AmazonEmber-bold"],

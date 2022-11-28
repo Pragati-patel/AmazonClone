@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import MegaMenu from '../components/header/MegaMenu'
+import MenuHeader from '../components/header/menuHeader'
 import TopHeader from '../components/header/topHeader'
 import styles from '../styles/Home.module.scss'
 
@@ -12,6 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <TopHeader/>
+    <MenuHeader/>
+    {/* <MegaMenu/> */}
     </div>
   )
 }
