@@ -1,5 +1,5 @@
 $wrapper-width: 100%;
-$div-width: 70%/6;
+$div-width: 'fit-content';
 
 @mixin flex-class {
     display: flex;
@@ -16,8 +16,7 @@ $div-width: 70%/6;
 
 .top_header_wrapper {
     width: $wrapper-width;
-    @include flex-class();
-    @apply text-white ;
+    @apply text-white flex justify-between;
     background-color: #131921;
 
     .top_header_box {
@@ -27,7 +26,7 @@ $div-width: 70%/6;
 
     }
     .top_header_box3{
-        width: 30%;
+        width: 40%;
         @include flex-class();
         @apply p-3 flex-col;
     }

@@ -1,9 +1,14 @@
 import SearchFeild from '../SearchFeild'
 import styles from './style.module.scss'
+import Image from 'next/image';
+import { Images } from '../../../public/assests/images'
 export default function TopHeader(){
     return(
     <div className={styles.top_header_wrapper}>
-    <div className={styles.top_header_box}>1</div>
+    <div className={styles.top_header_box}>
+    <Image src={Images.amazonLogo} />
+        
+    </div>
     <div className={styles.top_header_box}>
         <p className={styles.normal_text}>Hello</p>
         <p className={styles.bold_text}>Select your address</p>
