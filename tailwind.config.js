@@ -11,6 +11,10 @@ module.exports = {
 
 
     },
+    colors:{
+      primary:"#131A22",
+      white:"#ffffff",
+    },
     extend: {
       fontFamily: {
         AmazonEmberBold: ["AmazonEmber-bold"],

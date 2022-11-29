@@ -5,8 +5,8 @@ import { Images } from '../../../public/assests/images'
 export default function TopHeader(){
     return(
     <div className={styles.top_header_wrapper}>
-    <div className={styles.top_header_box}>
-    <Image src={Images.amazonLogo} />
+    <div className={`${styles.top_header_box} w-36`} >
+    <Image src={Images.amazonLogo} className={styles.amazonLogo}/>
         
     </div>
     <div className={styles.top_header_box}>
