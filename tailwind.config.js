@@ -5,21 +5,28 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontSize:{
-      '12px':'12px',
-      '14px':'14px',
-
-
-    },
-    colors:{
-      primary:"#131A22",
-      white:"#ffffff",
-    },
+  
     extend: {
       fontFamily: {
         AmazonEmberBold: ["AmazonEmber-bold"],
         AmazonEmberMedium: ["AmazonEmber-medium"],
         AmazonEmberNormal: ["AmazonEmber-normal"],
+      },
+      fontSize:{
+        '10px':'10px',
+        '11px':'11px',
+        '12px':'12px',
+        '14px':'14px',
+  
+  
+      },
+      colors:{
+        primary:"#131A22",
+        secondary:"#232F3E",
+        thirdColor:"#37475A",
+        white:"#ffffff",
+        'gray-400':"#999",
+        'gray-300':"#DDD",
       },
     },
   },

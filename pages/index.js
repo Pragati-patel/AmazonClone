@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import BottomFooter from '../components/footer/bottomFooter'
+import UpperFooter from '../components/footer/UpperFooter'
 import MegaMenu from '../components/header/MegaMenu'
 import MenuHeader from '../components/header/menuHeader'
 import TopHeader from '../components/header/topHeader'
@@ -16,6 +18,8 @@ export default function Home() {
     <TopHeader/>
     <MenuHeader/>
     {/* <MegaMenu/> */}
+    <UpperFooter/>
+    <BottomFooter/>
     </div>
   )
 }
