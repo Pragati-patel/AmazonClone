@@ -21,13 +21,13 @@ export default function BottomFooter() {
                     return (
 
                         <div className={styles.link_box_wrap}>
-                            <ul className='flex flex-col mb-4'>
-                                <li className='text-gray-300 text-11px'>{item.ui1_li1}</li>
-                                <li className='text-gray-400 text-10px'>{item.ui1_li2}</li>
+                            <ul className='flex flex-col mb-4 hover:cursor-pointer hover:underline hover:decoration-gray-300'>
+                                <li className='text-gray-300 text-11px font-AmazonEmberMedium'>{item.ui1_li1}</li>
+                                <li className='text-gray-400 text-10px '>{item.ui1_li2}</li>
                                 <li className='text-gray-400 text-10px'>{item.ui1_li3}</li>
                             </ul>
-                            <ul className='flex flex-col'>
-                                <li className='text-gray-300 text-11px'>{item.ui2_li1}</li>
+                            <ul className='flex flex-col hover:cursor-pointer hover:underline hover:decoration-gray-300'>
+                                <li className='text-gray-300 text-11px font-AmazonEmberMedium'>{item.ui2_li1}</li>
                                 <li className='text-gray-400 text-10px'>{item.ui2_li2}</li>
                                 <li className='text-gray-400 text-10px'>{item.ui2_li3}</li>
                             </ul>

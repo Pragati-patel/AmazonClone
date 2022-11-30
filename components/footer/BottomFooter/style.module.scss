@@ -20,10 +20,10 @@
             @apply flex flex-col justify-center items-center text-12px pt-12 ;
 
             li{
-                @apply  list-none pr-4;
+                @apply  list-none pr-4 hover:cursor-pointer hover:underline text-gray-300 hover:decoration-gray-300;
             }
             p{
-                @apply flex
+                @apply flex hover:cursor-pointer hover:underline text-gray-300 hover:decoration-gray-300;
             }
         }
     }
