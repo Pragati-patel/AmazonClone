@@ -5,6 +5,7 @@ import UpperFooter from '../components/footer/UpperFooter'
 import MegaMenu from '../components/header/MegaMenu'
 import MenuHeader from '../components/header/menuHeader'
 import TopHeader from '../components/header/topHeader'
+import SignInCTA from '../components/SignInCTA'
 import styles from '../styles/Home.module.scss'
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
     <TopHeader/>
     <MenuHeader/>
     {/* <MegaMenu/> */}
+    <SignInCTA/>
     <UpperFooter/>
     <BottomFooter/>
     </div>
