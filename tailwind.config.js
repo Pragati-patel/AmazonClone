@@ -29,6 +29,7 @@ module.exports = {
         'gray-300':"#DDD",
         'gray-350':"#3a4553",
         'hover-btn':"#485769",
+        'link-primary':"#007185",
       },
     },
   },
