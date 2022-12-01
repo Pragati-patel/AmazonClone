@@ -11,27 +11,29 @@ $div-width: "fit-content";
   @apply text-12px;
 }
 .bold_text {
-  @apply text-14px font-medium;
+  @apply text-14px font-medium leading-3;
 }
 
 .top_header_wrapper {
   width: $wrapper-width;
-  @apply flex justify-between px-2;
+  @apply flex justify-between p-2;
   background-color: #131921;
   color: white;
 
   .top_header_box {
     width: $div-width;
     @include flex-class();
-    @apply p-3 flex-col;
+    @apply  flex-col box-border border border-transparent hover:cursor-pointer hover:border-white rounded-sm px-2 py-1;
 
     .amazonLogo {
       width: 100%;
     }
   }
   .top_header_box3 {
-    width: 40%;
+    width: 45%;
     @include flex-class();
-    @apply p-3 flex-col;
+    @apply  flex-col ;
   }
+
+
 }

@@ -1,15 +1,20 @@
 .menu_header_wrapper {
   @apply flex w-full justify-between items-center;
   background-color: #232f3e;
+
   .menu_list {
-    @apply flex;
+    @apply flex py-1 ;
+
     ul {
       @apply flex;
+
       li {
-        @apply list-none text-14px font-AmazonEmberMedium p-3 text-white;
+        @apply list-none text-14px font-AmazonEmberMedium px-2 border border-transparent py-1 text-white box-border hover:border-white rounded-sm hover:cursor-pointer;
       }
+    
     }
   }
+
   .menu_header_img {
     @apply flex;
   }

@@ -81,7 +81,7 @@ export default function UpperFooter() {
           <div>
             <Image
               src={Images.amazonLogo}
-              alt="alt atribute"
+              alt="amazon logo"
               className="w-28"
             />
           </div>

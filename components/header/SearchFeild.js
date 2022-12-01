@@ -1,11 +1,16 @@
 import styles from "./SearchFeild.module.scss";
 import { HiOutlineSearch } from "react-icons/hi";
+import SelectInput from "../SelectInput";
 
 export default function SearchFeild() {
+ 
   return (
     <div className={styles.SearchFeild_wrapper}>
-      <form className="flex">
-        <div className={styles.nav_left}>All</div>
+      <form className="flex relative">
+        {/* <div className={styles.nav_left}></div> */}
+        <div className={styles.all_list_data_wrap}>
+          <SelectInput/>
+        </div>
         <div className={styles.nav_fill}>
           <input
             className={styles.search_input}
