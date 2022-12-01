@@ -5,7 +5,7 @@
     }
 }
 .nav_left{
-    @apply flex rounded-tl-md rounded-bl-md ;
+    @apply flex rounded-tl-md rounded-bl-md justify-center items-center;
     width: 10%;
     background-color: #f3f3f3;
 
@@ -17,7 +17,7 @@
 }
 
 .nav_right{
-    @apply flex rounded-tr-md rounded-br-md;
+    @apply flex rounded-tr-md rounded-br-md justify-center items-center;
     background-color: #febd69;
     width: 10%;
 }

@@ -1,4 +1,5 @@
 import styles from './SearchFeild.module.scss';
+import {HiOutlineSearch} from 'react-icons/hi'
 
 export default function SearchFeild() {
     return (
@@ -9,7 +10,7 @@ export default function SearchFeild() {
                     <input className={styles.search_input} type="text" id="twotabsearchtextbox" value="" name="field-keywords" autocomplete="off" placeholder=""  dir="auto" tabindex="0" aria-label="Search" spellcheck="false"/>
                 </div>
                 <div className={styles.nav_right}>
-                    icon
+                    <HiOutlineSearch size={'1.5rem'} color="#000000"/>
                 </div>
             </form>
         </div>
