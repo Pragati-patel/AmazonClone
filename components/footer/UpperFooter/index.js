@@ -66,11 +66,9 @@ export default function UpperFooter() {
             return (
               <div key={index} className="flex flex-col">
                 <h1>{i.heading}</h1>
-                <p>
-                  {i.list.map((i, index) => {
-                    return <span key={index}>{i}</span>;
-                  })}
-                </p>
+                {i.list.map((i, index) => {
+                  return <span key={index}>{i}</span>;
+                })}
               </div>
             );
           })}
