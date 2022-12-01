@@ -3,27 +3,29 @@
 @tailwind utilities;
 @layer base {
   html {
-    font-family: 'AmazonEmber-normal','AmazonEmber-bold','AmazonEmber-medium', system-ui, sans-serif;
+    font-family: "AmazonEmber-normal", "AmazonEmber-bold", "AmazonEmber-medium",
+      system-ui, sans-serif;
   }
 }
 @font-face {
   font-family: "AmazonEmber-normal";
-  src: url('../public/fonts/Amazon\ Ember\ Light.ttf');
+  src: url("../public/fonts/Amazon\ Ember\ Light.ttf");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "AmazonEmber-bold";
-  src: url('../public/fonts/Amazon\ Ember\ Mono\ Bold.ttf');
+  src: url("../public/fonts/Amazon\ Ember\ Mono\ Bold.ttf");
   font-weight: bold;
   font-style: normal;
-}@font-face {
+}
+@font-face {
   font-family: "AmazonEmber-medium";
-  src: url('../public/fonts/Amazon\ Ember\ Medium.ttf');
+  src: url("../public/fonts/Amazon\ Ember\ Medium.ttf");
   font-weight: 500;
   font-style: normal;
 }
-  
+
 html,
 body {
   padding: 0;
