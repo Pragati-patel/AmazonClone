@@ -16,7 +16,7 @@ $div-width: 'fit-content';
 
 .top_header_wrapper {
     width: $wrapper-width;
-    @apply flex justify-between;
+    @apply flex justify-between px-2;
     background-color: #131921;
     color: white;
 

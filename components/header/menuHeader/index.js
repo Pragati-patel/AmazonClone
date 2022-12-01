@@ -1,6 +1,7 @@
 import styles from './style.module.scss';
 import Image from 'next/image';
 import { Images } from '../../../public/assests/images'
+import { AiOutlineMenu } from 'react-icons/ai';
 
 export default function MenuHeader() {
     const menuList = [
@@ -18,7 +19,7 @@ export default function MenuHeader() {
         <div className={styles.menu_header_wrapper}>
             <div className={styles.menu_list}>
                 <ul>
-                    <li>All</li>
+                    <li className='flex items-center'><AiOutlineMenu size={'1.2rem'} className="mr-2"/>  All</li>
                     {menuList.map((i) => {
                         return <li>{i.item}</li>
                     })}
