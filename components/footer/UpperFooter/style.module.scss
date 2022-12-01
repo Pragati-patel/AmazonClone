@@ -15,11 +15,11 @@
         @apply flex text-base font-AmazonEmberMedium font-medium mb-2.5;
       }
 
-      p {
-        li {
+      
+       .links{
           @apply flex list-none text-sm text-gray-300 mb-2 hover:cursor-pointer hover:underline hover:decoration-gray-300;
         }
-      }
+      
     }
   }
 
