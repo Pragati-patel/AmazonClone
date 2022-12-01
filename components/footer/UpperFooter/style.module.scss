@@ -1,39 +1,37 @@
 .upper_footer_wrapper {
-    @apply flex flex-col w-full bg-secondary text-white;
+  @apply flex flex-col w-full bg-secondary text-white;
 
-    .back_to_top_btn {
-        @apply py-4 w-full text-12px font-AmazonEmberMedium hover:bg-hover-btn;
-    }
+  .back_to_top_btn {
+    @apply py-4 w-full text-12px font-AmazonEmberMedium hover:bg-hover-btn;
+  }
 
-    .info_section {
-        @apply flex justify-center w-full;
+  .info_section {
+    @apply flex justify-center w-full;
 
-        .info_inner_row {
-            @apply flex flex-wrap justify-evenly py-10 w-full font-AmazonEmberMedium border-b border-gray-350;
+    .info_inner_row {
+      @apply flex flex-wrap justify-evenly py-10 w-full font-AmazonEmberMedium border-b border-gray-350;
 
-            h1 {
-                @apply flex text-base font-AmazonEmberMedium font-medium mb-2.5;
-            }
+      h1 {
+        @apply flex text-base font-AmazonEmberMedium font-medium mb-2.5;
+      }
 
-            p {
-                li {
-                    @apply flex list-none text-sm text-gray-300 mb-2 hover:cursor-pointer hover:underline hover:decoration-gray-300;
-                }
-            }
-
+      p {
+        li {
+          @apply flex list-none text-sm text-gray-300 mb-2 hover:cursor-pointer hover:underline hover:decoration-gray-300;
         }
+      }
     }
+  }
 
+  .logo_row {
+    @apply flex py-4 w-3/5 flex-wrap justify-center font-AmazonEmberMedium;
+  }
 
-    .logo_row {
-        @apply flex py-4 w-3/5 flex-wrap justify-center font-AmazonEmberMedium;
+  .location_row {
+    @apply flex py-4 w-3/5 flex-wrap justify-center font-AmazonEmberMedium;
+
+    .country_name {
+      @apply list-none pr-4 text-12px text-gray-300 hover:cursor-pointer hover:underline hover:decoration-gray-300;
     }
-
-    .location_row {
-        @apply flex py-4 w-3/5 flex-wrap justify-center font-AmazonEmberMedium;
-
-        .country_name {
-            @apply list-none pr-4 text-12px text-gray-300 hover:cursor-pointer hover:underline hover:decoration-gray-300;
-        }
-    }
+  }
 }

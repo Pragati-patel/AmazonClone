@@ -1,7 +1,7 @@
-import menuHeader from './Header/menuHeader.jpg'
-import amazonLogo from './Header/logo.png'
+import menuHeader from "./Header/menuHeader.jpg";
+import amazonLogo from "./Header/logo.png";
 
-export const Images ={
-    menuHeader,
-    amazonLogo
-}
+export const Images = {
+  menuHeader,
+  amazonLogo,
+};
