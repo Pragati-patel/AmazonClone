@@ -67,7 +67,7 @@ export default function UpperFooter() {
               <div key={index} className="flex flex-col">
                 <h1>{i.heading}</h1>
                 {i.list.map((i, index) => {
-                  return <span key={index}>{i}</span>;
+                  return <span key={index} className={styles.links}>{i}</span>;
                 })}
               </div>
             );
@@ -81,7 +81,7 @@ export default function UpperFooter() {
           <div>
             <Image
               src={Images.amazonLogo}
-              alt="alt atribute"
+              alt="amazon logo"
               className="w-28"
             />
           </div>

@@ -8,11 +8,11 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 export default function TopHeader() {
   return (
     <div className={styles.top_header_wrapper}>
-      <div className={`${styles.top_header_box} w-36`}>
+      <div className={`${styles.top_header_box} w-36 box-border`}>
         <Image
           src={Images.amazonLogo}
           className={styles.amazonLogo}
-          alt="alt attribute"
+          alt="amazon-logo"
         />
       </div>
       <div className={`${styles.top_header_box} flex-row `}>
