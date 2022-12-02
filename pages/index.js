@@ -16,11 +16,11 @@ export default function Home() {
       </Head>
 
       <TopHeader />
-      <MenuHeader />
+      {/* <MenuHeader /> */}
       {/* <MegaMenu/> */}
-      <SignInCTA />
-      <UpperFooter />
-      <BottomFooter />
+      {/* <SignInCTA /> */}
+      {/* <UpperFooter /> */}
+      {/* <BottomFooter /> */}
     </div>
   );
 }
