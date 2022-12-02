@@ -17,9 +17,12 @@
 }
 
 .nav_right {
-  @apply flex rounded-tr-md rounded-br-md justify-center items-center hover:bg-yellow-hover;
+  @apply flex rounded-tr-md rounded-br-md justify-center items-center;
   background-color: #febd69;
   width: 8%;
+}
+.nav_right:hover{
+  background-color: #f3a847;
 }
 
 .search_input {
