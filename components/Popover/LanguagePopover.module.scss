@@ -1,0 +1,23 @@
+.langugae_popover_wrapper {
+    @apply flex flex-col p-3;
+
+    .langugae_popover_top {
+        @apply flex text-12px border-b border-gray-200 pb-2 font-AmazonEmberMedium;
+
+    }
+
+    .langugae_popover_mid {
+        @apply flex flex-col text-12px py-2 border-b border-gray-200 pb-2 font-AmazonEmberMedium text-textLight;
+
+        .language_row {
+            @apply flex py-1 text-12px font-AmazonEmberMedium text-textLight;
+
+        }
+
+    }
+
+    .langugae_popover_bottom {
+        @apply flex text-12px flex-col py-2 font-AmazonEmberMedium;
+
+    }
+}
