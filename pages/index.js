@@ -1,4 +1,5 @@
 import Head from "next/head";
+import BannerCarousel from "../components/BannerCarousel";
 import BottomFooter from "../components/footer/BottomFooter";
 import UpperFooter from "../components/footer/UpperFooter";
 import MenuHeader from "../components/header/menuHeader";
@@ -18,9 +19,10 @@ export default function Home() {
       <TopHeader />
       <MenuHeader />
       {/* <MegaMenu/> */}
-      <SignInCTA />
-      <UpperFooter />
-      <BottomFooter />
+      <BannerCarousel/>
+      {/* <SignInCTA /> */}
+      {/* <UpperFooter /> */}
+      {/* <BottomFooter /> */}
     </div>
   );
 }
