@@ -4,6 +4,7 @@ import BottomFooter from "../components/footer/BottomFooter";
 import UpperFooter from "../components/footer/UpperFooter";
 import MenuHeader from "../components/header/menuHeader";
 import TopHeader from "../components/header/topHeader";
+import MultiCarousel from "../components/MultiCarousel";
 import SignInCTA from "../components/SignInCTA";
 import styles from "../styles/Home.module.scss";
 
@@ -20,6 +21,7 @@ export default function Home() {
       <MenuHeader />
       {/* <MegaMenu/> */}
       <BannerCarousel/>
+      <MultiCarousel/>
       {/* <SignInCTA /> */}
       {/* <UpperFooter /> */}
       {/* <BottomFooter /> */}
