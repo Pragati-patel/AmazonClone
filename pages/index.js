@@ -22,9 +22,9 @@ export default function Home() {
       {/* <MegaMenu/> */}
       <BannerCarousel/>
       <MultiCarousel/>
-      {/* <SignInCTA /> */}
-      {/* <UpperFooter /> */}
-      {/* <BottomFooter /> */}
+      <SignInCTA />
+      <UpperFooter />
+      <BottomFooter />
     </div>
   );
 }
