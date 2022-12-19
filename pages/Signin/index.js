@@ -1,9 +1,12 @@
+import {useState} from 'react'
 import styles from './style.module.scss'
 import Image from "next/image";
 import { Images } from '../../public/assests/images';
+import { AiFillCaretDown } from 'react-icons/ai'
 
 export default function Signin() {
-    const footerLink=['Conditions of use','Privacy Notice','Help']
+    const footerLink = ['Conditions of use', 'Privacy Notice', 'Help']
+    const [hiddenLinks, setHiddenLinks] = useState(false);
     return (
         <div className={styles.singin_wrapper}>
             <div className={styles.logo_box}>
@@ -19,7 +22,12 @@ export default function Signin() {
                 <input type='text' className={styles.singin_input} />
                 <button className={styles.continue_btn}>Continue</button>
                 <p className='text-12px my-2'>By continuing, you agree to Amazon's <span className='text-link-secondary'> Conditions of Use </span>and <span className='text-link-secondary'>Privacy Notice.</span></p>
-                <p className={styles.need_help}>Need help?</p>
+                <p className={styles.need_help}> <AiFillCaretDown size={"0.5rem"} className={styles.downArrowIcon} onClick={() => setHiddenLinks(!hiddenLinks)} />  Need help?</p>
+                {hiddenLinks ?
+                    <div className={styles.hidden_box}>
+                        <p>Forgot Password</p>
+                        <p>Other issues with sign-in</p>
+                    </div> : ""}
             </div>
             <div className={styles.create_account_box}>
                 <div className='flex items-center mb-3 w-full'>
@@ -27,17 +35,17 @@ export default function Signin() {
                         {/* <hr className='w-32' /> */}
                         <span className='text-xs text-gray-850 mx-3' style={{ color: "#767676" }}>New to Amazone?</span>
                         {/* <hr className='w-32' /> */}
-                        </p>
+                    </p>
                 </div>
                 <div className={styles.create_account_btn}><button className={styles.btn}>
                     Create your Amazon account</button></div>
             </div>
             <div className={styles.signin_footer}>
-                {footerLink.map((item,index)=>{
-                    return <div  key={index} className={styles.signin_footer_links}><li>{item}</li></div>
+                {footerLink.map((item, index) => {
+                    return <div key={index} className={styles.signin_footer_links}><li>{item}</li></div>
                 })}
             </div>
-                <p className='text-11px text-center text-[#555]  mt-2 mb-8'>© 1996-2022, Amazon.com, Inc. or its affiliates</p>
+            <p className='text-11px text-center text-[#555]  mt-2 mb-8'>© 1996-2022, Amazon.com, Inc. or its affiliates</p>
         </div>
     )
 }
