@@ -4,12 +4,20 @@
         @apply flex mx-auto my-4;
     }
     .signin_box{
-        @apply flex flex-col border border-gray-300 rounded p-6 w-[380px] m-auto;
+        @apply flex flex-col border border-gray-300 rounded p-6 w-[340px] m-auto;
         .singin_input{
-            border: 1px solid;
-            border-color: #a88734 #9c7e31 #846a29;
-            @apply rounded mb-2 py-1;
+            border: 1px solid #a6a6a6;
+            border-top-color: #949494;
+            box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+            @apply rounded mb-2 py-1 px-4;
+            outline: none
+
         }
+        .singin_input:focus{
+            border-color: #e77600;
+            box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+        }
+       
         .signin_heading{
             @apply text-[28px] font-AmazonEmberMedium font-normal;
         }
@@ -20,12 +28,21 @@
             @apply rounded py-1 my-2 text-[13px] font-AmazonEmberMedium;
         }
         .need_help{
-            @apply my-1 text-[13px] text-link-secondary font-AmazonEmberMedium;
+            @apply my-1 text-[13px] text-link-secondary font-AmazonEmberMedium flex items-center ml-2 hover:cursor-pointer hover:text-[#c45500] hover:underline;
+        }
+        .downArrowIcon{
+            @apply mr-2 cursor-pointer;
+        }
+        .hidden_box{
+            @apply text-[13px] text-link-secondary font-AmazonEmberMedium pl-6 ;
+            p{
+                @apply hover:cursor-pointer hover:text-[#c45500] hover:underline;
+            }
         }
     }
 
     .create_account_box{
-        @apply w-[380px] mx-auto flex flex-col my-4;
+        @apply w-[340px] mx-auto flex flex-col my-4;
         .create_account_btn{
             @apply w-full text-[13px] font-AmazonEmberMedium;
             .btn{
@@ -42,13 +59,13 @@
         }
     }
     .signin_footer{
-        @apply flex justify-center;
+        @apply flex justify-center mt-4;
         background: linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
         background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
         .signin_footer_links{
             @apply flex mt-6 flex-col;
             li{
-                @apply list-none text-11px text-link-secondary px-2 text-center font-AmazonEmberMedium;
+                @apply list-none text-11px text-link-secondary px-2 text-center font-AmazonEmberMedium hover:cursor-pointer hover:text-[#c45500] hover:underline;
             }
         }
     }
