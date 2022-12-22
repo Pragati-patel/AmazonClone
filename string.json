@@ -1,7 +1,14 @@
-{ 
-"Continue":"Continue",    
-"sign_in":{
-"lable":"Email or mobile phone number",
-"bottom_footer_text":"© 1996-2022, Amazon.com, Inc. or its affiliates"
-}
+{
+    "Continue": "Continue",
+    "sign_in": {
+        "lable": "Email or mobile phone number",
+        "bottom_footer_text": "© 1996-2022, Amazon.com, Inc. or its affiliates"
+    },
+    "create_account": {
+        "your_name": "Your name",
+        "mobile_number": "Mobile number",
+        "email": "Email (optional)",
+        "password": "Password",
+        "info": "By enrolling your mobile phone number, you consent to receive automated security notifications via text message from Amazon. Message and data rates may apply."
+    }
 }

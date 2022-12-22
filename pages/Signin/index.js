@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Images } from '../../public/assests/images';
 import strings from '../../string.json'
 import { AiFillCaretDown, AiFillCaretRight } from 'react-icons/ai'
+import CreateAccount from './CreateAccount';
 
 export default function Signin() {
     const footerLink = ['Conditions of use', 'Privacy Notice', 'Help']
@@ -17,7 +18,7 @@ export default function Signin() {
                     className="w-28"
                 />
             </div>
-            <div className={styles.signin_box}>
+            {/* <div className={styles.signin_box}>
                 <h1 className={styles.signin_heading}>Sign in</h1>
                 <label className='text-[13px] font-AmazonEmberMedium mt-2'>
                     {strings.sign_in.lable}
@@ -37,7 +38,11 @@ export default function Signin() {
                         <p>Forgot Password</p>
                         <p>Other issues with sign-in</p>
                     </div> : ""}
-            </div>
+            </div> */}
+
+            <CreateAccount />
+
+
             <div className={styles.create_account_box}>
                 <div className='flex items-center mb-3 w-full'>
                     <div className='flex items-center'>
