@@ -2,6 +2,7 @@ import { useState } from 'react'
 import styles from './style.module.scss'
 import Image from "next/image";
 import { Images } from '../../public/assests/images';
+import strings from '../../string.json'
 import { AiFillCaretDown, AiFillCaretRight } from 'react-icons/ai'
 
 export default function Signin() {
@@ -18,9 +19,11 @@ export default function Signin() {
             </div>
             <div className={styles.signin_box}>
                 <h1 className={styles.signin_heading}>Sign in</h1>
-                <label className='text-[13px] font-AmazonEmberMedium mt-2'>Email or mobile phone number</label>
+                <label className='text-[13px] font-AmazonEmberMedium mt-2'>
+                    {strings.sign_in.lable}
+                    </label>
                 <input type='text' className={styles.singin_input} />
-                <button className={styles.continue_btn}>Continue</button>
+                <button className={styles.continue_btn}>{strings.Continue}</button>
                 <p className='text-12px my-2'>By continuing, you agree to Amazon's <span className='text-link-secondary'> Conditions of Use </span>and <span className='text-link-secondary'>Privacy Notice.</span></p>
                 <p className={styles.need_help} onClick={() => setHiddenLinks(!hiddenLinks)} >
                     {hiddenLinks? <AiFillCaretDown size={"0.5rem"} className={styles.downArrowIcon} />:
@@ -51,7 +54,7 @@ export default function Signin() {
                     return <div key={index} className={styles.signin_footer_links}><li>{item}</li></div>
                 })}
             </div>
-            <p className='text-11px text-center text-[#555]  mt-2 mb-8'>© 1996-2022, Amazon.com, Inc. or its affiliates</p>
+            <p className={styles.bottom_text}>{strings.sign_in.bottom_footer_text}</p>
         </div>
     )
 }
