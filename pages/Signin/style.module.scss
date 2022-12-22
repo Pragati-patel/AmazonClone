@@ -28,13 +28,16 @@
             @apply rounded py-1 my-2 text-[13px] font-AmazonEmberMedium;
         }
         .need_help{
-            @apply my-1 text-[13px] text-link-secondary font-AmazonEmberMedium flex items-center ml-2;
+            @apply my-1 text-[13px] text-link-secondary font-AmazonEmberMedium flex items-center ml-2 hover:cursor-pointer hover:text-[#c45500] hover:underline;
         }
         .downArrowIcon{
-            @apply mr-2 cursor-pointer
+            @apply mr-2 cursor-pointer;
         }
         .hidden_box{
-            @apply text-[13px] text-link-secondary font-AmazonEmberMedium pl-6;
+            @apply text-[13px] text-link-secondary font-AmazonEmberMedium pl-6 ;
+            p{
+                @apply hover:cursor-pointer hover:text-[#c45500] hover:underline;
+            }
         }
     }
 
@@ -62,7 +65,7 @@
         .signin_footer_links{
             @apply flex mt-6 flex-col;
             li{
-                @apply list-none text-11px text-link-secondary px-2 text-center font-AmazonEmberMedium;
+                @apply list-none text-11px text-link-secondary px-2 text-center font-AmazonEmberMedium hover:cursor-pointer hover:text-[#c45500] hover:underline;
             }
         }
     }
