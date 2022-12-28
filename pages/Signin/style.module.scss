@@ -36,6 +36,10 @@
             @apply rounded py-1 my-2 text-[13px] font-AmazonEmberMedium;
         }
 
+        .continue_btn:hover {
+            background: #f0c14b;
+        }
+
         .need_help {
             @apply my-1 text-[13px] text-link-secondary font-AmazonEmberMedium flex items-center ml-2 hover:cursor-pointer hover:text-[#c45500] hover:underline;
         }
@@ -50,6 +54,10 @@
             p {
                 @apply hover:cursor-pointer hover:text-[#c45500] hover:underline;
             }
+        }
+
+        .span_link {
+            @apply text-link-secondary hover:cursor-pointer hover:text-[#c45500] hover:underline;
         }
     }
 
@@ -93,9 +101,10 @@
     }
 }
 
-.create_acc_info{
+.create_acc_info {
     @apply text-12px mt-2 flex;
-    span{
+
+    span {
         @apply text-link-secondary flex items-center hover:cursor-pointer hover:underline hover:text-[#c45500];
     }
 }
