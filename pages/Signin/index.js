@@ -4,12 +4,12 @@ import Image from "next/image";
 import { Images } from '../../public/assests/images';
 import strings from '../../string.json'
 import { AiFillCaretDown, AiFillCaretRight } from 'react-icons/ai'
-import CreateAccount from './CreateAccount';
+import { useRouter } from 'next/navigation';
 
 export default function Signin() {
+    const router = useRouter();
     const footerLink = ['Conditions of use', 'Privacy Notice', 'Help']
     const [hiddenLinks, setHiddenLinks] = useState(false);
-    const [showSignin, setShowSignin] = useState(true);
     return (
         <div className={styles.singin_wrapper}>
             <div className={styles.logo_box}>
@@ -19,7 +19,6 @@ export default function Signin() {
                     className="w-28"
                 />
             </div>
-            {showSignin ? (
                 <div className={styles.signin_box}>
                     <h1 className={styles.signin_heading}>Sign in</h1>
                     <label className='text-[13px] font-AmazonEmberMedium mt-2'>
@@ -40,27 +39,21 @@ export default function Signin() {
                             <p>Other issues with sign-in</p>
                         </div> : ""}
                 </div>
-            )
-                : (
-                    < CreateAccount control={setShowSignin} />
-                )
-
-            }
+          
 
             <div className={styles.create_account_box}>
-                {showSignin && <div className='flex items-center mb-3 w-full'>
+                <div className='flex items-center mb-3 w-full'>
                     <div className='flex items-center'>
                         <div className='border-t w-[6.5rem] h-1'></div>
                         <span className='text-xs text-gray-850 mx-3' style={{ color: "#767676" }}>New to Amazone?</span>
                         <div className='border-t w-[6.5rem] h-1'></div>
                     </div>
-                </div>}
+                </div>
 
 
                 <div className={styles.create_account_btn}>
-                    {showSignin &&
-                        <button className={styles.btn} onClick={() => setShowSignin(false)}>
-                            Create your Amazon account</button>}
+                        <button className={styles.btn} onClick={() => router.push('/register')}>
+                            Create your Amazon account</button>
                 </div>
             </div>
             <div className={styles.signin_footer}>
