@@ -1,4 +1,5 @@
 import Head from "next/head";
+import CategoryCard from "../cards/CategoryCard";
 import BannerCarousel from "../components/BannerCarousel";
 import BottomFooter from "../components/Footer/BottomFooter";
 import UpperFooter from "../components/Footer/UpperFooter";
@@ -21,6 +22,7 @@ export default function Home() {
       <MenuHeader />
       {/* <MegaMenu/> */}
       <BannerCarousel/>
+      <CategoryCard/>
       <MultiCarousel/>
       <SignInCTA />
       <UpperFooter />
