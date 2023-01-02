@@ -1,0 +1,11 @@
+.signin_crad_wrap{
+    @apply flex flex-col p-2 py-4 w-full bg-white h-fit;
+    .heading{
+        @apply text-[21px] font-AmazonEmberMedium px-2;
+    }
+    .button{
+        @apply bg-yellow-350 rounded-lg flex justify-center mt-4 text-[13px] font-semibold py-[6px] m-2 hover:bg-[#F7CA00] hover:cursor-pointer ;
+        box-shadow:  " 0 2px 5px 0 rgb(213 217 217 / 50%)" ;
+    }
+   
+}

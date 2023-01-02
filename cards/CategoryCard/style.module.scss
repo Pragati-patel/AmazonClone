@@ -1,7 +1,7 @@
 .category_card_wrapper {
-    @apply flex  flex-col p-2 w-full bg-white;
+    @apply flex  flex-col p-2 py-4 w-full bg-white;
     .category_heading{
-        @apply text-[21px] font-AmazonEmberMedium px-2;
+        @apply text-[21px] font-AmazonEmberMedium font-medium px-2;
     }
 
     .sub_category_row {
