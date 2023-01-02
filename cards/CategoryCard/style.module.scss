@@ -1,0 +1,20 @@
+.category_card_wrapper {
+    @apply flex border-2 border-blue-500 flex-col p-2 w-[25%] bg-white;
+    .category_heading{
+        @apply text-[21px] font-AmazonEmberMedium px-2;
+    }
+
+    .sub_category_row {
+        @apply flex py-2;
+
+        .sub_category_box {
+            @apply flex flex-col p-2;
+            .sub_category_heading{
+                @apply text-12px font-AmazonEmberMedium text-black-text;
+            }
+        }
+    }
+    .expand_category{
+        @apply text-link-primary text-[13px] font-AmazonEmberMedium flex p-2;
+    }
+}

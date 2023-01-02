@@ -1,5 +1,6 @@
 {
     "Continue": "Continue",
+    "see_more":"See More",
     "sign_in": {
         "lable": "Email or mobile phone number",
         "bottom_footer_text": "© 1996-2022, Amazon.com, Inc. or its affiliates"
@@ -10,5 +11,14 @@
         "email": "Email (optional)",
         "password": "Password",
         "info": "By enrolling your mobile phone number, you consent to receive automated security notifications via text message from Amazon. Message and data rates may apply."
+    },
+    "Category":{
+        "home_improvment":{
+            "sub_category_1":"Extension bords, plugs & more",
+            "sub_category_2":" Spin mops, Wipes & more",
+            "sub_category_3":" Drill machine, Tool kits & more",
+            "sub_category_4":"Bathroom accessories"
+
+        }
     }
 }
