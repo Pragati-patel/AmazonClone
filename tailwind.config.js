@@ -24,6 +24,7 @@ module.exports = {
         textLight:"#555",
         white: "#ffffff",
         'yellow-250':'#f3a847',
+        'yellow-350':'#FFD814',
         "gray-400": "#999",
         "gray-300": "#DDD",
         "gray-350": "#3a4553",
