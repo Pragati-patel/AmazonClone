@@ -1,0 +1,6 @@
+.category_section_wrap{
+    @apply flex p-4 w-full bg-[#e7e7e7];
+    .card_wrap{
+        @apply flex mx-2;
+    }
+}

@@ -1,0 +1,12 @@
+.sale_card_wrapper{
+    @apply flex bg-white flex-col p-2;
+    .category_heading{
+        @apply text-[21px] font-AmazonEmberMedium px-2;
+    }
+    .expand_category{
+        @apply text-link-primary text-[13px] font-AmazonEmberMedium flex p-2;
+    }
+    .sale_banner{
+        @apply flex p-2;
+    }
+}

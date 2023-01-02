@@ -1,11 +1,11 @@
 .category_card_wrapper {
-    @apply flex border-2 border-blue-500 flex-col p-2 w-[25%] bg-white;
+    @apply flex  flex-col p-2 w-full bg-white;
     .category_heading{
         @apply text-[21px] font-AmazonEmberMedium px-2;
     }
 
     .sub_category_row {
-        @apply flex py-2;
+        @apply flex;
 
         .sub_category_box {
             @apply flex flex-col p-2;
