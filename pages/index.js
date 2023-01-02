@@ -1,6 +1,7 @@
 import Head from "next/head";
 import CategoryCard from "../cards/CategoryCard";
 import BannerCarousel from "../components/BannerCarousel";
+import CategorySection from "../components/CategorySection";
 import BottomFooter from "../components/Footer/BottomFooter";
 import UpperFooter from "../components/Footer/UpperFooter";
 import MenuHeader from "../components/Header/menuHeader";
@@ -22,11 +23,12 @@ export default function Home() {
       <MenuHeader />
       {/* <MegaMenu/> */}
       <BannerCarousel/>
-      <CategoryCard/>
+      {/* <CategoryCard/> */}
+      <CategorySection/>
       <MultiCarousel/>
       <SignInCTA />
-      <UpperFooter />
-      <BottomFooter />
+      {/* <UpperFooter /> */}
+      {/* <BottomFooter /> */}
     </div>
   );
 }
