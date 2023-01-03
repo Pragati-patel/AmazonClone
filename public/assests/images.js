@@ -6,6 +6,9 @@ import homeImprovment2 from './Category/HomeImprovment/2.jpg'
 import homeImprovment3 from './Category/HomeImprovment/3.jpg'
 import homeImprovment4 from './Category/HomeImprovment/4.jpg'
 import saleProductBanner1 from './Category/sale/sale-product-banner-1.jpg'
+import singleProductImg from './Laptops/laptop_related.jpg'  
+import LaptopProductCardImg from './Laptops/product-img.webp'  
+import primeLogo from './Logo/prime-logo.svg'
 
 export const Images = {
   menuHeader,
@@ -16,4 +19,7 @@ export const Images = {
   homeImprovment3,
   homeImprovment4,
   saleProductBanner1,
+  singleProductImg,
+  primeLogo,
+  LaptopProductCardImg
 };

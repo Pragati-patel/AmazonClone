@@ -5,7 +5,7 @@ import strings from '../../string.json'
 
 export default function CategoryCard() {
     return (<div className={styles.category_card_wrapper}>
-        <h1 className={styles.category_heading}>Props.heading</h1>
+        <h1 className={styles.category_heading}>Upgrade your home | Amazon Brands & more</h1>
 
         <div className={styles.sub_category_row}>
             <div className={styles.sub_category_box}>
