@@ -1,0 +1,25 @@
+.product_card_wrap {
+    @apply flex flex-col bg-white p-4;
+
+    .singleProductImg {
+        @apply flex;
+    }
+
+    .product_card_heading {
+        @apply flex text-[13px] my-4 font-AmazonEmberMedium;
+
+    }
+
+    .product_card_bottom_row {
+        @apply flex justify-between;
+
+        h1 {
+            @apply flex text-2xl font-AmazonEmberMedium;
+            color: rgb(177 39 4/var(--tw-text-opacity));
+        }
+        .shop_now_btn{
+            @apply flex bg-[#ffa41c] rounded-2xl border border-[#ff8f00] text-12px font-AmazonEmberMedium py-1 px-4;
+            box-shadow: 0 2px 5px 0 hsl(180deg 5% 84% / 50%);
+        }
+    }
+}
