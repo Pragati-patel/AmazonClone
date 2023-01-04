@@ -2,8 +2,9 @@ import styles from './style.module.scss'
 import Image from 'next/image'
 import { Images } from '../../public/assests/images'
 import strings from '../../string.json'
+import { positions } from '@mui/system'
 
-export default function CategoryCard() {
+export default function CategoryCard({seeMore}) {
     return (<div className={styles.category_card_wrapper}>
         <h1 className={styles.category_heading}>Upgrade your home | Amazon Brands & more</h1>
 
@@ -37,7 +38,8 @@ export default function CategoryCard() {
                 </p>
             </div>
         </div>
+        {console.log(seeMore,"seemore")}
 
-        <button className={styles.expand_category}>{strings.see_more}</button>
+        <button className={seeMore? `${styles.expand_category} absolute`:`${styles.expand_category}`}  >{strings.see_more}</button>
     </div>)
 }

@@ -1,5 +1,5 @@
 .category_card_wrapper {
-    @apply flex  flex-col p-2 py-4 w-full bg-white relative;
+    @apply flex  flex-col flex-wrap p-2 py-4 w-full bg-white relative;
     .category_heading{
         @apply text-[21px] font-AmazonEmberMedium font-medium px-2;
     }
@@ -18,6 +18,6 @@
         }
     }
     .expand_category{
-        @apply text-link-primary text-[13px] font-AmazonEmberMedium flex p-2 absolute bottom-4;
+        @apply text-link-primary text-[13px] font-AmazonEmberMedium flex p-2  bottom-4;
     }
 }
