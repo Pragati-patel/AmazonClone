@@ -9,6 +9,9 @@
 
         .sub_category_box {
             @apply flex flex-col p-2;
+            .category_banner{
+                @apply h-[110px] bottom-1 border-red-600;
+            }
             .sub_category_heading{
                 @apply text-12px font-AmazonEmberMedium text-black-text;
             }
