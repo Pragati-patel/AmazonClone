@@ -6,6 +6,7 @@ import BottomFooter from "../components/Footer/BottomFooter";
 import UpperFooter from "../components/Footer/UpperFooter";
 import MenuHeader from "../components/Header/menuHeader";
 import TopHeader from "../components/Header/topHeader";
+import ImagesMultiCarousel from "../components/ImagesMultiCarousel";
 import MultiCarousel from "../components/MultiCarousel";
 import SignInCTA from "../components/SignInCTA";
 import styles from "../styles/Home.module.scss";
@@ -25,6 +26,7 @@ export default function Home() {
       <BannerCarousel/>
       {/* <CategoryCard/> */}
       <CategorySection/>
+      <ImagesMultiCarousel/>
       <MultiCarousel/>
       <SignInCTA />
       {/* <UpperFooter /> */}
