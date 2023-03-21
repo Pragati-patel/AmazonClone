@@ -2,6 +2,8 @@ import styles from './style.module.scss'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi'
+import Image from 'next/image';
+import { Images } from '../../public/assests/images';
 
 
 export default function ImagesMultiCarousel() {
@@ -39,15 +41,20 @@ export default function ImagesMultiCarousel() {
     };
     return (
 
-        <div className='w-full bg-white my-12 border-t border-gray-300 pt-4'>
+        <div className='w-full bg-white my-12 mx-4'>
+            <div className='w-[95%] flex m-auto '>
+                <p className='flex text-lg font-AmazonEmberMedium font-bold'>Customers who viewed items in your browsing history also viewed</p></div>
+
+
             <div className='w-[95%] mx-auto'>
                 <Carousel arrows={false} customButtonGroup={<ButtonGroup />}
                     responsive={responsive} infinite={true} sliderClass={`${styles.demo}`}
                 >
 
                     {items.map((index, item) => {
-                        return (<div key={index} className='flex flex-col py-2 mx-5 w-[160px]'>
-                            Item 1</div>)
+                        return (<div key={index} className='flex py-2'>
+                            <Image src={Images.under599Pro1} />
+                        </div>)
                     }
                     )
                     }

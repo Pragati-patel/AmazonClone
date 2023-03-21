@@ -9,6 +9,9 @@ import saleProductBanner1 from './Category/sale/sale-product-banner-1.jpg'
 import singleProductImg from './Laptops/laptop_related.jpg'  
 import LaptopProductCardImg from './Laptops/product-img.webp'  
 import primeLogo from './Logo/prime-logo.svg'
+import under599Pro1 from './Category/under599Product/1.jpg'
+import under599Pro2 from './Category/under599Product/2.jpg'
+import under599Pro3 from './Category/under599Product/3.jpg'
 
 export const Images = {
   menuHeader,
@@ -21,5 +24,8 @@ export const Images = {
   saleProductBanner1,
   singleProductImg,
   primeLogo,
-  LaptopProductCardImg
+  LaptopProductCardImg,
+  under599Pro1,
+  under599Pro2,
+  under599Pro3,
 };
