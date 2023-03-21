@@ -24,7 +24,7 @@ export default function Home() {
       <MenuHeader />
       {/* <MegaMenu/> */}
       <BannerCarousel/>
-      <CategoryCard/>
+      {/* <CategoryCard/> */}
       <CategorySection/>
       <ImagesMultiCarousel/>
       <MultiCarousel/>
