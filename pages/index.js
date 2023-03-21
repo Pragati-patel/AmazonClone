@@ -29,8 +29,8 @@ export default function Home() {
       <ImagesMultiCarousel/>
       <MultiCarousel/>
       <SignInCTA />
-      {/* <UpperFooter /> */}
-      {/* <BottomFooter /> */}
+      <UpperFooter />
+      <BottomFooter />
     </div>
   );
 }
