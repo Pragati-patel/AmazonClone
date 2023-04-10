@@ -1,6 +1,7 @@
 import styles from "./style.module.scss";
 export default function SignInCTA() {
-  return (
+  return (<div className="bg-white py-8">
+
     <div className={styles.signin_cta_wrapper}>
       <div className={styles.cta_content}>
         <p className="text-xs text-black font-AmazonEmberMedium pb-2">
@@ -15,5 +16,6 @@ export default function SignInCTA() {
         </p>
       </div>
     </div>
+  </div>
   );
 }

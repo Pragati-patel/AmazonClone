@@ -27,7 +27,7 @@ export default function CategorySection() {
                 </div>
             })}
         </div>
-        <div className={styles.category_section_wrap}>
+        <div className={styles.category_section_wrap} style={{background:"#e7e7e7"}}>
             {cards.map((card, index) => {
                 return <div key={index} className={styles.card_wrap}>
                     {index === 2 ?

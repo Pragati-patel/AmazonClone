@@ -13,6 +13,14 @@ import primeLogo from './Logo/prime-logo.svg'
 import under599Pro1 from './Category/under599Product/1.jpg'
 import under599Pro2 from './Category/under599Product/2.jpg'
 import under599Pro3 from './Category/under599Product/3.jpg'
+import D1 from './BottomSlider/1D.jpg'
+import D2 from './BottomSlider/2D.jpg'
+import D3 from './BottomSlider/3D.jpg'
+import D4 from './BottomSlider/4D.jpg'
+import D5 from './BottomSlider/5D.jpg'
+import D6 from './BottomSlider/6D.jpg'
+import D7 from './BottomSlider/7D.jpg'
+import D8 from './BottomSlider/8D.jpg'
 
 export const Images = {
   menuHeader,
@@ -29,5 +37,13 @@ export const Images = {
   under599Pro1,
   under599Pro2,
   under599Pro3,
-  saleProductWatch
+  saleProductWatch,
+  D1,
+  D2,
+  D3,
+  D4,
+  D5,
+  D6,
+  D7,
+  D8
 };
