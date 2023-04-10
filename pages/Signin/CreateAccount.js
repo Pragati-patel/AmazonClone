@@ -43,7 +43,7 @@ export default function CreateAccount({ control }) {
                 <span>
                     Create a free business account<AiFillCaretRight size={"0.5rem"} className={styles.downArrowIcon} />  </span>
             </p>
-            <p className='text-12px my-2 mt-4'>By continuing, you agree to Amazon's
+            <p className='text-12px my-2 mt-4'>By continuing, you agree to Amazon
                 <span className={styles.span_link}> Conditions of Use </span>
                 and
                 <span className={styles.span_link}>Privacy Notice.</span>

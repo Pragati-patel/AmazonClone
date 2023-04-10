@@ -27,7 +27,7 @@ export default function Signin() {
                     </label>
                     <input type='text' className={styles.singin_input} />
                     <button className={styles.continue_btn}>{strings.Continue}</button>
-                    <p className='text-12px my-2'>By continuing, you agree to Amazon's <span className={styles.span_link}> Conditions of Use </span>and <span className={styles.span_link}>Privacy Notice.</span></p>
+                    <p className='text-12px my-2'>By continuing, you agree to Amazon&apos;s <span className={styles.span_link}> Conditions of Use </span>and <span className={styles.span_link}>Privacy Notice.</span></p>
                     <p className={styles.need_help} onClick={() => setHiddenLinks(!hiddenLinks)} >
                         {hiddenLinks ? <AiFillCaretDown size={"0.5rem"} className={styles.downArrowIcon} /> :
                             <AiFillCaretRight size={"0.5rem"} className={styles.downArrowIcon} />

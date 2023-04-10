@@ -6,7 +6,7 @@ export default function SingleProductCard() {
     const heading = 'MSI Katana GF76, Intel 11th Gen. i5-11400H, 43CM FHD 144Hz Gaming Laptop (8GB/512GB NVMe SSD/Windows 11 Home/Nv  idia GTX1650 4GB GDDR6/Black/2.6Kg), 11SC-847IN'
     return (
         <div className={styles.product_card_wrap}>
-            <Image src={Images.LaptopProductCardImg} />
+            <Image src={Images.LaptopProductCardImg}  alt='Laptop-Product-Card-Img'/>
             <p className={styles.product_card_heading}>{heading.slice(0, 65) + (heading.length > 65 ? "..." : "")}</p>
             <div className={styles.product_card_bottom_row}>
                 <div className='flex'>
