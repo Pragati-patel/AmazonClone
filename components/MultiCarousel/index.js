@@ -58,7 +58,7 @@ export default function MultiCarousel() {
                 >
                     {items.map((index, item) => {
                         return <div key={index} className='flex flex-col py-2 mx-5 w-[160px]'>
-                            <img className='w-full' src='https://images-eu.ssl-images-amazon.com/images/I/71-3Gw+9KCL._AC_UL160_SR160,160_.jpg' />
+                            <img className='w-full' src='https://images-eu.ssl-images-amazon.com/images/I/71-3Gw+9KCL._AC_UL160_SR160,160_.jpg' alt='image'/>
                             <h1 className='text-sm font-AmazonEmberMedium text-link-primary'>MSI Gaming GF63 Thin, Intel 11th Gen. i7-11800H, 40CM FHD 144Hz Gaming Laptop (8GB/512GB NVMe SSD/Windows 10...</h1>
                             <p className='text-14px'> <Rating className='text-lg' name="read-only" value={value} readOnly /></p>
                             <p className='text-[17px] font-AmazonEmberMedium text-black-text'>78,980.00</p>
