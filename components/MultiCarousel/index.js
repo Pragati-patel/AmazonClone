@@ -42,7 +42,7 @@ export default function MultiCarousel() {
     };
 
     return (
-        <div className='w-full bg-white my-12 border-t border-gray-300 pt-4'>
+        <div className='w-full bg-white my-8 py-12 border-t border-gray-300 pt-4'>
             <div className='w-[95%] flex justify-between m-auto '>
                 <p className='flex text-lg font-AmazonEmberMedium font-bold'>Customers who viewed items in your browsing history also viewed</p>
                 <p className='flex text-14px font-AmazonEmberMedium'>
