@@ -11,8 +11,13 @@ import MultiCarousel from "../components/MultiCarousel";
 import SignInCTA from "../components/SignInCTA";
 import styles from "../styles/Home.module.scss";
 import TodayDeals from "../components/Today'sDeals";
+import { Images } from "../public/assests/images";
+import CategoryRow from "../components/CategorySection/CategoryRow";
 
 export default function Home() {
+  const ProductImages = [Images.D1, Images.D2, Images.D3, Images.D4, Images.D5, Images.D6, Images.D7, Images.D8, Images.D2, Images.D4, Images.D6, Images.D8]
+
+  const ComputerAccessories = [Images.ComputerAccessory1, Images.ComputerAccessory2, Images.ComputerAccessory3, Images.ComputerAccessory4, Images.ComputerAccessory5, Images.ComputerAccessory6, Images.ComputerAccessory7, Images.ComputerAccessory8, Images.ComputerAccessory9, Images.ComputerAccessory10, Images.ComputerAccessory11, Images.ComputerAccessory12, Images.ComputerAccessory13, Images.ComputerAccessory14, Images.ComputerAccessory15]
   return (
     <div className={`${styles.container} bg-[#e7e7e7]`}>
       <Head>
@@ -23,12 +28,19 @@ export default function Home() {
       <TopHeader />
       <MenuHeader />
       {/* <MegaMenu/> */}
-      <BannerCarousel/>
+      <BannerCarousel />
       {/* <CategoryCard/> */}
-      <CategorySection/>
-      <TodayDeals/>
-      <ImagesMultiCarousel/>
-      <MultiCarousel/>
+      <CategorySection cards = {[1, 2, 3, 4]} />
+      <CategoryRow cards={[1,2,3,4]} singleCardIndex={2}/>
+      <TodayDeals />
+      <ImagesMultiCarousel
+        heading={"Customers who viewed items in your browsing history also viewed"}
+        items={ProductImages} />
+      <CategoryRow cards={[1,2,3,4]} singleCardIndex={2}/>
+      <ImagesMultiCarousel
+        heading={"Best Sellers in Computers & Accessories"}
+        items={ComputerAccessories} />
+      <MultiCarousel />
       <SignInCTA />
       <UpperFooter />
       <BottomFooter />

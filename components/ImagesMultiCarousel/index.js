@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { Images } from '../../public/assests/images';
 
 
-export default function ImagesMultiCarousel() {
+export default function ImagesMultiCarousel({heading,items}) {
     const responsive = {
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
@@ -24,7 +24,6 @@ export default function ImagesMultiCarousel() {
             slidesToSlide: 1 // optional, default to 1.
         }
     };
-    const items = [Images.D1, Images.D2, Images.D3, Images.D4, Images.D5, Images.D6, Images.D7, Images.D8, Images.D2, Images.D4, Images.D6, Images.D8]
     const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
         const { carouselState: { currentSlide } } = rest;
         return (
@@ -41,9 +40,9 @@ export default function ImagesMultiCarousel() {
     };
     return (
 
-        <div className='w-full bg-white py-12 px-4'>
+        <div className='w-full bg-white py-12 px-4 mb-8'>
             <div className='w-[95%] flex m-auto '>
-                <p className='flex text-xl font-AmazonEmberMedium font-bold pb-4'>Customers who viewed items in your browsing history also viewed</p></div>
+                <p className='flex text-xl font-AmazonEmberMedium font-bold pb-4'>{heading}</p></div>
 
 
             <div className='w-[95%] mx-auto'>
@@ -53,13 +52,12 @@ export default function ImagesMultiCarousel() {
 
                     {items.map(( item,index) => {
                         return (<div key={index} className='flex py-2'>
-                            {/* <Image src={Images.D1} /> */}
                             <Image src={item} />
                         </div>)
                     }
                     )
                     }
-                </Carousel>;
+                </Carousel>
             </div>
         </div>
     )

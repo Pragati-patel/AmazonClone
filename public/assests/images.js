@@ -22,6 +22,21 @@ import D6 from './BottomSlider/6D.jpg'
 import D7 from './BottomSlider/7D.jpg'
 import D8 from './BottomSlider/8D.jpg'
 import Deal1 from './Category/sale/deal1.jpg'
+import ComputerAccessory1 from './ComputerAccessories/CA1.jpg'
+import ComputerAccessory2 from './ComputerAccessories/CA2.jpg'
+import ComputerAccessory3 from './ComputerAccessories/CA3.jpg'
+import ComputerAccessory4 from './ComputerAccessories/CA4.jpg'
+import ComputerAccessory5 from './ComputerAccessories/CA5.jpg'
+import ComputerAccessory6 from './ComputerAccessories/CA6.jpg'
+import ComputerAccessory7 from './ComputerAccessories/CA7.jpg'
+import ComputerAccessory8 from './ComputerAccessories/CA8.jpg'
+import ComputerAccessory9 from './ComputerAccessories/CA9.jpg'
+import ComputerAccessory10 from './ComputerAccessories/CA10.jpg'
+import ComputerAccessory11 from './ComputerAccessories/CA11.jpg'
+import ComputerAccessory12 from './ComputerAccessories/CA12.jpg'
+import ComputerAccessory13 from './ComputerAccessories/CA13.jpg'
+import ComputerAccessory14 from './ComputerAccessories/CA14.jpg'
+import ComputerAccessory15 from './ComputerAccessories/CA15.jpg'
 
 export const Images = {
   menuHeader,
@@ -47,5 +62,20 @@ export const Images = {
   D6,
   D7,
   D8,
-  Deal1
+  Deal1,
+  ComputerAccessory1,
+  ComputerAccessory2,
+  ComputerAccessory3,
+  ComputerAccessory4,
+  ComputerAccessory5,
+  ComputerAccessory6,
+  ComputerAccessory7,
+  ComputerAccessory8,
+  ComputerAccessory9,
+  ComputerAccessory10,
+  ComputerAccessory11,
+  ComputerAccessory12,
+  ComputerAccessory13,
+  ComputerAccessory14,
+  ComputerAccessory15,
 };
