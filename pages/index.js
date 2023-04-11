@@ -10,6 +10,7 @@ import ImagesMultiCarousel from "../components/ImagesMultiCarousel";
 import MultiCarousel from "../components/MultiCarousel";
 import SignInCTA from "../components/SignInCTA";
 import styles from "../styles/Home.module.scss";
+import TodayDeals from "../components/Today'sDeals";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <BannerCarousel/>
       {/* <CategoryCard/> */}
       <CategorySection/>
+      <TodayDeals/>
       <ImagesMultiCarousel/>
       <MultiCarousel/>
       <SignInCTA />
