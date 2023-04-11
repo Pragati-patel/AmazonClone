@@ -21,6 +21,7 @@ import D5 from './BottomSlider/5D.jpg'
 import D6 from './BottomSlider/6D.jpg'
 import D7 from './BottomSlider/7D.jpg'
 import D8 from './BottomSlider/8D.jpg'
+import Deal1 from './Category/sale/deal1.jpg'
 
 export const Images = {
   menuHeader,
@@ -45,5 +46,6 @@ export const Images = {
   D5,
   D6,
   D7,
-  D8
+  D8,
+  Deal1
 };
