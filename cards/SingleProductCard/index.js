@@ -12,7 +12,7 @@ export default function SingleProductCard() {
                 <div className='flex'>
 
                     <h1>65,711</h1>
-                    <Image src={Images.primeLogo} />
+                    <Image src={Images.primeLogo} alt='image'/>
                 </div>
                 <button className={styles.shop_now_btn}>Shop now</button>
             </div>

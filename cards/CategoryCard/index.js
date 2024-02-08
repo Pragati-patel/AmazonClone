@@ -9,14 +9,14 @@ export default function CategoryCard() {
 
         <div className={styles.sub_category_row}>
             <div className={styles.sub_category_box}>
-                <Image src={Images.homeImprovment1} className={styles.category_banner}/>
+                <Image src={Images.homeImprovment1} className={styles.category_banner} alt='image'/>
                 <p className={styles.sub_category_heading}>
                     {strings.Category.home_improvment.sub_category_1}
                 </p>
             </div>
 
             <div className={styles.sub_category_box}>
-                <Image src={Images.homeImprovment2} className={styles.category_banner} />
+                <Image src={Images.homeImprovment2} className={styles.category_banner} alt='image'/>
                 <p className={styles.sub_category_heading}>
                     {strings.Category.home_improvment.sub_category_2}
                 </p>
@@ -25,13 +25,13 @@ export default function CategoryCard() {
 
         <div className={styles.sub_category_row}>
             <div className={styles.sub_category_box}>
-                <Image src={Images.homeImprovment3} className={styles.category_banner} />
+                <Image src={Images.homeImprovment3} className={styles.category_banner} alt='image'/>
                 <p className={styles.sub_category_heading}>
                     {strings.Category.home_improvment.sub_category_3}
                 </p>
             </div>
             <div className={styles.sub_category_box}>
-                <Image src={Images.homeImprovment4} className={styles.category_banner}/>
+                <Image src={Images.homeImprovment4} className={styles.category_banner} alt='image'/>
                 <p className={styles.sub_category_heading}>
                     {strings.Category.home_improvment.sub_category_4}
                 </p>

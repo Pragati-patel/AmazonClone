@@ -7,7 +7,7 @@ export default function SaleCard(){
         <div className={styles.sale_card_wrapper}>
             <h1 className={styles.category_heading}>Up to 60% off | Professional tools & more</h1>
             <div className={styles.sale_banner}>
-                <Image src={Images.saleProductWatch}/>
+                <Image src={Images.saleProductWatch} alt='image'/>
             </div>
         <button className={styles.expand_category}>{strings.see_more}</button>
 
