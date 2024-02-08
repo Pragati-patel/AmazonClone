@@ -9,7 +9,7 @@ import styles from "../styles/Home.module.scss";
 import TodayDeals from "../components/Today'sDeals";
 import { Images } from "../public/assests/images";
 import CategoryRow from "../components/CategorySection/CategoryRow";
-import TopHeader from "../components/Header/TopHeader";
+import TopHeader from "../components/header/TopHeader";
 import MenuHeader from "../components/header/menuHeader";
 import UpperFooter from "../components/footer/UpperFooter";
 import BottomFooter from "../components/footer/BottomFooter";
