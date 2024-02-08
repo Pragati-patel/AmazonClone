@@ -3,8 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi'
 import Image from 'next/image';
-import { Images } from '../../public/assests/images';
-import Image from 'next/image';
+// import { Images } from '../../public/assests/images';
 
 
 export default function ImagesMultiCarousel({heading,items}) {
