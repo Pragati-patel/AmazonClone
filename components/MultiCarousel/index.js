@@ -4,6 +4,7 @@ import Rating from '@mui/material/Rating';
 import * as React from 'react';
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi'
 import styles from './style.module.scss'
+import Image from 'next/image';
 
 export default function MultiCarousel() {
     const responsive = {

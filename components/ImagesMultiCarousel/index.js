@@ -4,6 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi'
 import Image from 'next/image';
 import { Images } from '../../public/assests/images';
+import Image from 'next/image';
 
 
 export default function ImagesMultiCarousel({heading,items}) {
@@ -52,7 +53,7 @@ export default function ImagesMultiCarousel({heading,items}) {
 
                     {items.map(( item,index) => {
                         return (<div key={index} className='flex py-2'>
-                            <Image src={item} />
+                            <Image src={item} alt='image'/>
                         </div>)
                     }
                     )
